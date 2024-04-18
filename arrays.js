@@ -7,17 +7,18 @@ let last=arr2.pop();
 console.log({arr2})
 //question2
  let stringmyPests=["cow","Bird","Snake","Dog"]
-console.log(stringmyPests.join(""))
+console.log(stringmyPests.join(","))
 //question3
 let arr3=[-5,9,5,3,2,-3,6,8,4,1];
 arr3.sort();
 console.log(arr3);
 //question4
 let arr = ["apple", "mango", "apple",   "orange", "mango", "mango"];
-function removeDuplicates(arr){
+let  newArray=[...new Set(arr)]{
     return [...new set(arr)]
 }
-    console.log(removeDuplicates(arr));
+    console.log(newArray);
+
 
 //question5
 let arr5 =["the","way","x",4]
